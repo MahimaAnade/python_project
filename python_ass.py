@@ -1,4 +1,5 @@
-#python minor project on countdown timer by Mahima Anade CSE(A)
+#python minor project on countdown timer 
+#by Mahima Anade CSE(A)
 import time
 
 def countdown_timer(seconds):
@@ -7,6 +8,5 @@ def countdown_timer(seconds):
         time.sleep(1) 
         seconds -= 1
     print("Time's up!")
-
 
 countdown_timer(10)
